@@ -1,0 +1,17 @@
+n=int(input('enter no:'))
+result=0
+while n>0:
+     rem=n%10
+     result=result+rem
+     n=n//10
+print(result)
+
+
+enter no:546
+15
+
+enter no:123456789
+45
+
+enter no:345
+12
